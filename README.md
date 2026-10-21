@@ -35,8 +35,7 @@ As described in the synopsis, a 230 V AC supply is converted to 5 V DC by an SMP
 
 ## System Block Diagram
 
-![Block diagram from the project synopsis](images/block-diagram.png)
-
+![System Block Diagram](block-diagram.png)
 The intended power path is:
 
 ```text
@@ -71,7 +70,7 @@ DS18B20 Temperature Sensor ---+--> ESP32 --> Wi-Fi --> Blynk Dashboard
 
 ## Data Flow Diagram
 
-![Data flow diagram from the project synopsis](images/data-flow-diagram.png)
+![Data Flow Diagram](data-flow-diagram.png)
 
 1. The power supply energizes the transmitter coil.
 2. The receiver coil captures transferred energy.
@@ -83,7 +82,7 @@ DS18B20 Temperature Sensor ---+--> ESP32 --> Wi-Fi --> Blynk Dashboard
 
 ## System Operation Flowchart
 
-![System operation flowchart from the project synopsis](images/system-flowchart.png)
+![System Flowchart](system-flowchart.png)
 
 Planned operation, based on the synopsis:
 
